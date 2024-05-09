@@ -28,7 +28,6 @@ a {
 /* style */
 header {
   display: flex;
-  width: 100vw;
   justify-content: center;
   box-shadow: 0 0.5px 20px 1px #d6d6d6;
 }
@@ -83,14 +82,59 @@ section.hero {
   background-position: center;
   width: 100%;
   height: 500px;
-  background-color: aqua;
   color: #fff;
   margin: 35px 0;
   border-radius: 10px;
+  box-shadow: 1px 1px 20px 5px #aaaaaa;
 }
 
 section.hero p {
   font-size: xx-large;
   font-weight: 600;
   text-align: center;
+}
+
+.big-font {
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+section.daftar-artikel {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: left;
+}
+
+section .artikel {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 650px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 15px 2px #d6d6d6;
+  padding: 8px 15px;
+}
+
+section .artikel div:nth-child(1) {
+  margin-right: 15px;
+}
+
+section .artikel a:hover {
+  transition: .1s;
+}
+
+section .artikel a:hover {
+  color: rgb(104, 136, 251);
+}
+
+section .artikel img {
+  margin-right: 100px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+section .artikel .judul-artikel {
+  font-size: 21px;
 }
